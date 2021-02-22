@@ -16,7 +16,7 @@ int main() {
 			cin >> a[i][j];
 	for(int i=0; i<n; ++i) {
 		for(int j=0; j<n; ++j) {
-			//skip the loop if it a[i][j]=1
+			//skip the loop if a[i][j]=1
 			if(a[i][j]==1)
 				continue;
 			bool ok=0;
